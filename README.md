@@ -10,19 +10,18 @@ A previsão é feita utilizando dados existentes (clientes.csv) para treinar a I
 
 ## 📁 Estrutura do Projeto
 📂 previsao-score-credito
- ├── clientes.csv            # Base de dados para treinamento
- ├── novos_clientes.csv      # Base de dados para novas previsões
- ├── inicial.ipynb           # Notebook com todo o desenvolvimento
- └── README.md               # Documentação do projeto
+- clientes.csv            # Base de dados para treinamento
+- novos_clientes.csv      # Base de dados para novas previsões
+- inicial.ipynb           # Notebook com todo o desenvolvimento
+- README.md               # Documentação do projeto
 
 ## ⚙️ Passo a Passo do Projeto
 🔹 Passo 1: Importar a Base de Dados
 
 Utilizamos as bibliotecas:
 
-Pandas
-
-Scikit-learn
+- Pandas
+- Scikit-learn
 
 Leitura e análise inicial da base de clientes para entender os dados e possíveis valores nulos.
 
