@@ -25,6 +25,7 @@ Utilizamos as bibliotecas:
 
 Leitura e análise inicial da base de clientes para entender os dados e possíveis valores nulos.
 
+
 🔹 Passo 2: Tratamento e Preparação dos Dados
 
 Como modelos de IA trabalham apenas com números, colunas categóricas (texto) foram convertidas utilizando LabelEncoder, como:
@@ -47,6 +48,7 @@ Dados de treino
 
 Dados de teste (30%)
 
+
 🔹 Passo 3: Criação dos Modelos de IA
 
 Foram utilizados dois algoritmos de classificação:
@@ -57,6 +59,7 @@ KNN (K-Nearest Neighbors)
 
 Os modelos foram treinados com os dados de treino para aprender os padrões da base.
 
+
 🔹 Passo 4: Avaliação e Escolha do Melhor Modelo
 
 As previsões foram comparadas com os dados reais de teste utilizando a métrica accuracy_score.
@@ -64,6 +67,7 @@ As previsões foram comparadas com os dados reais de teste utilizando a métrica
 Resultado:
 
 O modelo Random Forest apresentou melhor desempenho, com aproximadamente 82% de acerto.
+
 
 🔹 Passo 5: Previsão de Novos Clientes
 
